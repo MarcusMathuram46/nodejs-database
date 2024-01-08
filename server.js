@@ -20,7 +20,7 @@ app.use('/assignments', require('./controllers/assignmentController'));
 
 // Define your API endpoints here
 // Change this line in server.js
-app.use('/mentor/assign', mentorsRouter);
+app.use('/mentors', mentorsRouter);
 app.use('/students', studentsRouter);
 app.use('/assignments', assignmentsRouter);
 
